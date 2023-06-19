@@ -1,2 +1,2 @@
 # RoyalMailing
-### run command "npm run tailwind to start tailwind"###
+### run command 'npm run tailwind' to start tailwindcss
