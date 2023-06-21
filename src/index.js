@@ -14,7 +14,7 @@ const secondSwiper = [
   },
   {
     title: "Customs Regulatory Updates",
-    body: "Stay up-to-date on important customs regulations from around the world! ",
+    body: "Stay utw-p-to-date on important customs regulations from around the world! ",
     btn: "View Latest Updates",
     image:'../src/assets/images/4.png'
   },
@@ -48,14 +48,14 @@ const divArray = secondSwiper.map((data) => {
   const divElement = document.createElement("div");
   divElement.classList.add("swiper-slide");
   divElement.innerHTML = `
-      <div class='rounded-lg overflow-hidden max-w-sm mx-auto shadow-lg h-full ' >
-        <div class="h-[210px]  bg-[url('')"><img class='h-full w-full object-cover object-center' src='${data.image}' /></div>
-          <div class='bg-white h-[200px] flex  flex-col p-4'>
+      <div class='tw-rounded-lg tw-overflow-hidden tw-max-w-sm tw-mx-auto tw-shadow-lg tw-h-full ' >
+        <div class="tw-h-[210px]  tw-bg-[url('')"><img class='tw-h-full tw-w-full tw-object-cover tw-object-center' src='${data.image}' /></div>
+          <div class='tw-bg-white tw-h-[200px] tw-flex  tw-flex-col tw-p-4'>
           <div class=''>
-          <p class='font-bold text-lg leading-tight'>${data.title}</p>
+          <p class='tw-font-bold tw-text-lg tw-leading-tight'>${data.title}</p>
           <p>${data.body}</p>
           </div>
-            <a class="text-primary mt-auto self-end " href="#">${data.btn}</a>
+            <a class="tw-text-primary tw-mt-auto tw-self-end " href="#">${data.btn}</a>
           </div>
           
           
